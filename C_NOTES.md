@@ -196,6 +196,7 @@ int* a = (int*) malloc(length * sizeof(int));
 int* a = (int*) calloc(length, sizeof(int));
 //calloc needs two params as opposed to multiplying, and sets all indicies to 0
 ```
+
 Keep in mind both malloc and calloc need to be casted to their respective data type pointer variants
 By default both return a (void*) wtf??
 
